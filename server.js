@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/friendster', {
     useFindAndModify: false,
     useNewUrlParser: true,
-    useUnigiedTopology: true
+    useUnifiedTopology: true
 });
 
 mongoose.set('debug', true);
