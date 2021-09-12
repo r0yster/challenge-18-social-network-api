@@ -1,4 +1,4 @@
-# challenge-18-social-network-api
+# social-network-api
 
 ## Description
 API for social network web applications where user's can add friends, post their thoughts and have their friends react to their thoughts.
